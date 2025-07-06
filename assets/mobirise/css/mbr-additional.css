@@ -3269,24 +3269,3 @@ a {
 .cid-uQ4LUmNgmV foot-menu-item {
   text-align: right;
 }
-/* Force ALL hamburger & close‑icon lines to white */
-.navbar-toggler,
-.navbar-toggler:focus,
-.navbar-toggler:hover,
-.navbar-toggler.collapsed,
-.navbar-toggler .hamburger,
-.navbar-toggler .hamburger span,
-.navbar-toggler .hamburger.is-active span,
-.navbar-toggler-icon,
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after,
-.hamburger span,
-.hamburger span::before,
-.hamburger span::after,
-.hamburger.is-active span,
-.hamburger.is-active span::before,
-.hamburger.is-active span::after {
-    background-color: #ffffff !important; /* for span‑based bars        */
-    border-color:     #ffffff !important; /* if the bars are borders    */
-    color:            #ffffff !important; /* for SVG “icon” versions    */
-}
