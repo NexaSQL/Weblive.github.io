@@ -3269,18 +3269,3 @@ a {
 .cid-uQ4LUmNgmV foot-menu-item {
   text-align: right;
 }
-/* ── Hamburger + X icon: make it white ───────────────────── */
-.hamburger span,
-.hamburger span::before,
-.hamburger span::after,
-.hamburger.is-active span,
-.hamburger.is-active span::before,
-.hamburger.is-active span::after,
-.navbar-toggler-icon,
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after {
-  background-color: #ffffff !important;  /* white lines */
-  border-color:    #ffffff !important;   /* in case lines are borders */
-  color:           #ffffff !important;   /* for SVG/font icons */
-}
-
