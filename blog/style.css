@@ -1508,3 +1508,14 @@ pre code {
 html {
     scroll-behavior: smooth;
 }
+
+/* Ensure padding inside cards so text isn't against the border */
+.post-card {
+  padding: var(--space-24);
+  box-sizing: border-box;
+}
+
+.post-card__header,
+.post-card__footer {
+  padding: 0; /* Avoid double padding if .post-card now has padding */
+}
