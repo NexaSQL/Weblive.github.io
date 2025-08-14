@@ -298,7 +298,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function searchCategory(category) {
     const searchInput = document.getElementById('searchInput');
-    searchInput.value = category; // Fill search box with category
-    document.getElementById('searchBtn').click(); // Trigger search
+    searchInput.value = category; // Fill the search box
+    document.getElementById('searchBtn').click(); // Trigger the search
 }
+
 
