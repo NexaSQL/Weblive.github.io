@@ -933,9 +933,8 @@ select.form-control {
 }
 
 .posts-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--space-20);
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: var(--space-32); /* optional: more breathing room */
 }
 
 /* Post Card */
