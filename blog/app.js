@@ -300,6 +300,9 @@ function searchCategory(category) {
     const searchInput = document.getElementById('searchInput');
     searchInput.value = category; // Fill the search box
     document.getElementById('searchBtn').click(); // Trigger the search
+
+    // Scroll to the Featured Articles section
+    document.getElementById('articles').scrollIntoView({ behavior: 'smooth' });
 }
 
 
