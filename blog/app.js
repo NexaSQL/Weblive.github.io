@@ -301,8 +301,10 @@ function searchCategory(category) {
     searchInput.value = category; // Fill the search box
     document.getElementById('searchBtn').click(); // Trigger the search
 
-    // Scroll to the Featured Articles section
-    document.getElementById('articles').scrollIntoView({ behavior: 'smooth' });
+    // Delay scroll so it happens after DOM updates
+    setTimeout(() => {
+        document.getElementById('articles').scrollIntoView({ behavior: 'smooth' });
+    }, 100); // 100ms is usually enough for the render
 }
 
 
