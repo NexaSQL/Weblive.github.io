@@ -11,4 +11,8 @@
 	<url>
 		<loc>https://nexasql.com/Contact.html</loc>
 	</url>
+	 <!-- Blog main page -->
+    <url>
+        <loc>https://nexasql.com/blog/index.html</loc>
+    </url>
 </urlset>
