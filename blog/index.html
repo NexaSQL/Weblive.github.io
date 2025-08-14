@@ -149,10 +149,16 @@
             <p class="newsletter__description">
                 Get the latest SQL Server tips, best practices, and industry insights delivered to your inbox.
             </p>
-            <form class="newsletter__form" id="newsletterForm">
-                <input type="email" class="form-control" placeholder="Enter your email" required>
-                <button type="submit" class="btn btn--primary">Subscribe</button>
-            </form>
+            <form action="https://formsubmit.co/info@nexasql.com" method="POST" class="newsletter__form" id="newsletterForm">
+    <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+    <button type="submit" class="btn btn--primary">Subscribe</button>
+    
+    <!-- Optional hidden fields -->
+    <input type="hidden" name="_subject" value="New Newsletter Subscription">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://nexasql.com/thank-you.html">
+</form>
+      
         </div>
     </div>
 </section>
