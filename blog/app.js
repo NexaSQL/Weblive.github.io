@@ -265,3 +265,34 @@ document.addEventListener('DOMContentLoaded', async () => {
         initializeSearch();
     }
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById('newsletterForm');
+    const successMessage = document.getElementById('newsletterSuccess');
+
+    if (form) {
+        form.addEventListener('submit', function (e) {
+            e.preventDefault(); // stop default submit + scrolling
+
+            const formData = new FormData(form);
+
+            fetch('https://formsubmit.co/ajax/info@nexasql.com', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    successMessage.style.display = 'block';
+                    form.reset();
+                } else {
+                    alert('Something went wrong. Please try again.');
+                }
+            })
+            .catch(error => {
+                alert('Error: ' + error.message);
+            });
+        });
+    }
+});
+
