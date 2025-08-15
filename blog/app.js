@@ -310,9 +310,16 @@ function searchCategory(category) {
 document.addEventListener("DOMContentLoaded", () => {
     const navToggle = document.querySelector(".nav__toggle");
     const navList = document.querySelector(".nav__list");
+    const navLinks = document.querySelectorAll(".nav__list a");
 
     navToggle.addEventListener("click", () => {
         navList.classList.toggle("nav__list--open");
     });
-});
 
+    // Close menu when any link is clicked
+    navLinks.forEach(link => {
+        link.addEventListener("click", () => {
+            navList.classList.remove("nav__list--open");
+        });
+    });
+});
