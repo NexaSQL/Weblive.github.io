@@ -1539,7 +1539,7 @@ html {
     .nav__list {
         display: none;
         flex-direction: column;
-        background: -primary;
+        background: var(--color-primary);
         position: absolute;
         top: 70px; /* adjust for your header height */
         right: 10px;
