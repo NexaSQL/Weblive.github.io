@@ -1,5 +1,6 @@
 {
-  "posts": ["sql-performance-mistakes-that-kill-database-speed","parameter-sniffing-in-sql-server-a-white-paper","accelerated-database-recovery-in-sql-server"
+  "posts": ["sql-performance-mistakes-that-kill-database-speed","parameter-sniffing-in-sql-server-a-white-paper",
+    "accelerated-database-recovery-in-sql-server","troubleshooting-network-related-or-instance-specific-sql-server-connection-errors"
      
   ]
 }
