@@ -5,7 +5,9 @@
     "whats-new-in-sql-server-2025-key-features-and-innovations",
     "comprehensive-guide-to-sql-server-backups-features-and-best-practices-2025",
     "step-by-step-guide-running-sql-server-in-docker-2025",
-    "resumable-maintenance-in-sql-server-index-rebuilds-index-creation-and-alter-table-add-constraint"
+    "resumable-maintenance-in-sql-server-index-rebuilds-index-creation-and-alter-table-add-constraint",
+    "understanding-read-commit-snapshot-isolation-enhancing-database-concurrency-with-row-versioning"
+    
      
   ]
 }
