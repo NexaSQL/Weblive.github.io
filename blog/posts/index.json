@@ -1,6 +1,7 @@
 {
   "posts": ["sql-performance-mistakes-that-kill-database-speed","parameter-sniffing-in-sql-server-a-white-paper",
-    "accelerated-database-recovery-in-sql-server","troubleshooting-network-related-or-instance-specific-sql-server-connection-errors"
+    "accelerated-database-recovery-in-sql-server","troubleshooting-network-related-or-instance-specific-sql-server-connection-errors",
+    "step-by-step-guide-enabling-transparent-data-encryption-tde-in-sql-server"
      
   ]
 }
