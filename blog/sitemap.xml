@@ -1,1 +1,12 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://nexasql.com/blog/post.html?slug=sql-performance-mistakes-that-kill-database-speed</loc>
+  </url>
+  <url>
+    <loc>https://nexasql.com/blog/post.html?slug=parameter-sniffing-in-sql-server-a-white-paper</loc>
+  </url>
+  <url>
+    <loc>https://nexasql.com/blog/post.html?slug=accelerated-database-recovery-in-sql-server</loc>
+  </url>
+</urlset>
