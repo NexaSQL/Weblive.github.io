@@ -16,7 +16,7 @@
     <meta name="description" content="Enable Transparent Data Encryption (TDE) in SQL Server to protect your data at rest with simple steps: master key, cert, activation.">
 </head>
 <body>
-<h2>Step-by-Step Guide: Enabling Transparent Data Encryption (TDE) in SQL Server</h2><p>Transparent Data Encryption (TDE) encrypts the underlying database files, protecting data at rest from unauthorized access. Here’s how you can enable TDE on your SQL Server database:</p><h2><span style="color: inherit;">Prerequisites</span></h2><ul><li>SQL Server Management Studio (SSMS)</li><li>Administrative rights on SQL Server</li><li>A strong password for key protection</li><li>A secure location to back up your encryption certificate</li></ul><h2><span style="color: inherit;">1. Create a Master Key</span></h2><p>The master key encrypts other keys and certificates. Run this in the master database:</p><pre class="ql-syntax" spellcheck="false">USE master;
+<p>Transparent Data Encryption (TDE) encrypts the underlying database files, protecting data at rest from unauthorized access. Here’s how you can enable TDE on your SQL Server database:</p><h2><span style="color: inherit;">Prerequisites</span></h2><ul><li>SQL Server Management Studio (SSMS)</li><li>Administrative rights on SQL Server</li><li>A strong password for key protection</li><li>A secure location to back up your encryption certificate</li></ul><h2><span style="color: inherit;">1. Create a Master Key</span></h2><p>The master key encrypts other keys and certificates. Run this in the master database:</p><pre class="ql-syntax" spellcheck="false">USE master;
 GO
 CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'InsertStrongPasswordHere';
 GO
