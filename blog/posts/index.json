@@ -7,7 +7,8 @@
     "step-by-step-guide-running-sql-server-in-docker-2025",
     "resumable-maintenance-in-sql-server-index-rebuilds-index-creation-and-alter-table-add-constraint",
     "understanding-read-commit-snapshot-isolation-enhancing-database-concurrency-with-row-versioning",
-    "basic-availability-groups-bags"
+    "basic-availability-groups-bags",
+    "understanding-maxdop-and-cost-threshold-for-parallelism-in-sql-server"
     
      
   ]
