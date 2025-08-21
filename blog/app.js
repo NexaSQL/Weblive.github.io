@@ -253,6 +253,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('postContent').innerHTML = post.content;
         document.title = `${post.title} - NexaSQL Blog`;
 
+        // Add canonical tag dynamically
+const canonicalLink = document.createElement('link');
+canonicalLink.rel = 'canonical';
+canonicalLink.href = `${window.location.origin}${window.location.pathname}?slug=${slug}`;
+document.head.appendChild(canonicalLink);
+
+
         // Toggle visibility
         document.getElementById('loadingMessage').style.display = 'none';
         document.getElementById('postError').style.display = 'none';
