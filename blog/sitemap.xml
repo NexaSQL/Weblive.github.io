@@ -33,4 +33,7 @@
   <url>
     <loc>https://nexasql.com/blog/post.html?slug=basic-availability-groups-bags</loc>
   </url>
- </urlset>
+   <url>
+    <loc>https://nexasql.com/blog/post.html?slug=understanding-maxdop-and-cost-threshold-for-parallelism-in-sql-server</loc>
+  </url>
+   </urlset>
